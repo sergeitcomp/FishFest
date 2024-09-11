@@ -4,7 +4,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from flask import Flask, request
 # Токен вашего бота
-TOKEN = '7012578157:AAG7js8XPgV87HHnJ5tZuH0ucHOTF0LBDfo'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 
